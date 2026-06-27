@@ -5,9 +5,19 @@ from pathlib import Path
 import cv2
 import pytesseract
 
-pytesseract.pytesseract.tesseract_cmd = (
-    r"C:\Program Files\Tesseract-OCR\tesseract.exe\tesseract.exe"
-)
+import platform
+import shutil
+import pytesseract
+
+# Configure Tesseract only on Windows
+if platform.system() == "Windows":
+    pytesseract.pytesseract.tesseract_cmd = (
+        r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+    )
+
+# On Linux (Render), use the system installation if available
+elif shutil.which("tesseract"):
+    pytesseract.pytesseract.tesseract_cmd = shutil.which("tesseract")
 
 def extract_text_from_image(image_path: str) -> str:
     """Extract text from prescription image using EasyOCR."""
