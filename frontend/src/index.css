@@ -1,0 +1,63 @@
+/* ── Design Tokens ──────────────────────────────────────────────────────── */
+:root {
+  --teal-900: #0B4D52;
+  --teal-700: #0B6E72;
+  --teal-500: #1A9BA1;
+  --teal-300: #5BC4C9;
+  --teal-100: #D4F1F3;
+  --teal-50:  #EDF9FA;
+
+  --amber-500: #F59E0B;
+  --amber-100: #FEF3C7;
+
+  --red-600:  #DC2626;
+  --red-100:  #FEE2E2;
+  --orange-500:#EA580C;
+  --orange-100:#FFEDD5;
+  --green-600: #16A34A;
+  --green-100: #DCFCE7;
+  --blue-600:  #2563EB;
+  --blue-100:  #DBEAFE;
+
+  --ink:       #0D1117;
+  --ink-light: #374151;
+  --muted:     #6B7280;
+  --border:    #E5E7EB;
+  --surface:   #F9FAFB;
+  --white:     #FFFFFF;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.05);
+  --shadow-md: 0 4px 16px rgba(0,0,0,.09), 0 2px 6px rgba(0,0,0,.06);
+  --shadow-lg: 0 12px 40px rgba(0,0,0,.12), 0 4px 12px rgba(0,0,0,.06);
+
+  --font-display: 'Syne', sans-serif;
+  --font-body:    'Inter', sans-serif;
+
+  --transition: 0.18s cubic-bezier(.4,0,.2,1);
+}
+
+/* ── Reset ──────────────────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--surface);
+  color: var(--ink);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Scrollbar ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--teal-300); border-radius: 99px; }
+
+/* ── Utility ────────────────────────────────────────────────────────────── */
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }

@@ -1,0 +1,42 @@
+medicines,disease
+Paracetamol|Azithromycin,Viral Fever
+Paracetamol|Ibuprofen,Fever with Pain
+Paracetamol|Amoxicillin,Bacterial Fever
+Metformin|Atorvastatin,Type 2 Diabetes with Dyslipidemia
+Metformin|Lisinopril,Diabetic Hypertension
+Metformin|Insulin Glargine,Type 2 Diabetes (Insulin Dependent)
+Cetirizine|Montelukast,Allergic Rhinitis
+Cetirizine|Salbutamol,Allergic Asthma
+Cetirizine|Prednisolone,Severe Allergy
+Metoprolol|Amlodipine,Hypertension
+Metoprolol|Lisinopril,Hypertensive Heart Disease
+Amlodipine|Atorvastatin,Hypertension with Dyslipidemia
+Amlodipine|Lisinopril|Atorvastatin,Cardiovascular Disease
+Omeprazole|Amoxicillin|Metronidazole,H. Pylori Infection
+Omeprazole|Pantoprazole,GERD
+Pantoprazole|Domperidone,Acid Reflux
+Ibuprofen|Diclofenac,Musculoskeletal Pain
+Diclofenac|Omeprazole,Arthritis with GERD
+Gabapentin|Tramadol,Neuropathic Pain
+Sertraline|Gabapentin,Depression with Anxiety
+Sertraline|Clonazepam,Anxiety Disorder
+Doxycycline|Ciprofloxacin,Bacterial Infection
+Amoxicillin|Ciprofloxacin,Urinary Tract Infection
+Ciprofloxacin|Metronidazole,Abdominal Infection
+Levothyroxine|Atorvastatin,Hypothyroidism with Dyslipidemia
+Levothyroxine|Metformin,Hypothyroid Diabetes
+Salbutamol|Montelukast,Asthma
+Salbutamol|Prednisolone,Acute Asthma Exacerbation
+Prednisolone|Methotrexate,Autoimmune Disorder
+Ranitidine|Domperidone,Peptic Ulcer
+Tramadol|Ibuprofen,Moderate to Severe Pain
+Paracetamol,Mild Fever
+Cetirizine,Allergic Reaction
+Metformin,Type 2 Diabetes
+Amlodipine,Hypertension
+Salbutamol,Bronchospasm
+Omeprazole,Acid Reflux
+Sertraline,Depression
+Doxycycline,Bacterial Infection
+Gabapentin,Neuropathic Pain
+Levothyroxine,Hypothyroidism
