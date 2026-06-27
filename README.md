@@ -3,7 +3,9 @@
 > Upload a prescription image and receive structured medicine extraction, disease prediction, diet guidance, interaction warnings, and a downloadable PDF report.
 
 ---
-
+#LIVE DEMO
+Frontend : https://rx-clear-delta.vercel.app/
+Backend : 
 ## Project Structure
 
 ```
